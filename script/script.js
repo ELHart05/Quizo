@@ -49,13 +49,14 @@ async function JSONRetrive() {
         pre_quest.textContent = Data[val].question;
         for (let i = 0; i < 4; i++) {
             labels[i].textContent = Data[val].answers[i];
-            radios[i].value = Data[val].answers[i]
+            radios[i].value = Data[val].answers[i];
         }
     }
     Init(0);
 
     radios.forEach(radio => radio.addEventListener("click", function () {
         currentValue = radio.value;
+        demandeSpan.style.display = "none";
     }))
 
     submit.addEventListener("click", function () {
