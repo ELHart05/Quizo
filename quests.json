@@ -1,0 +1,76 @@
+[{
+        "question": "What software company is headquartered in Redmond, Washington?",
+        "answers": [
+            "Microsoft",
+            "Apple",
+            "Google",
+            "Meta"
+        ],
+        "Answer": "Microsoft"
+    },
+    {
+        "question": "What is the capital of Spain?",
+        "answers": [
+            "Berlin",
+            "Buenos Aires",
+            "Madrid",
+            "San Juan"
+        ],
+        "Answer": "Madrid"
+    }, {
+        "question": "When did The Avengers come out?",
+        "answers": [
+            "May 2, 2008",
+            "May 4, 2012",
+            "May 3, 2013",
+            "April 4, 2014"
+        ],
+        "Answer": "May 4, 2012"
+    }, {
+        "question": "In what country is the Chernobyl nuclear plant located?",
+        "answers": [
+            "Iraq",
+            "USA",
+            "Russia",
+            "Ukraine"
+        ],
+        "Answer": "Ukraine"
+    }, {
+        "question": "What is the 4th letter of the Greek alphabet?",
+        "answers": [
+            "Alpha",
+            "Gama",
+            "Delta",
+            "Tita"
+        ],
+        "Answer": "Delta"
+    }, {
+        "question": "What car manufacturer had the highest revenue in 2020?",
+        "answers": [
+            "Audi",
+            "Peugeot",
+            "Suzuki",
+            "Volkswagen"
+        ],
+        "Answer": "Volkswagen"
+    }, {
+        "question": "What is the max length of a TikTok video?",
+        "answers": [
+            "15 Seconds",
+            "30 Seconds",
+            "45 Seconds",
+            "60 Seconds"
+        ],
+        "Answer": "60 Seconds"
+    }, {
+        "question": "What artist has the smost streams on Spotify?",
+        "answers": [
+            "Drake",
+            "Sting",
+            "Micheal Jackson",
+            "SiMoh NasrEddine"
+        ],
+        "Answer": "Drake"
+    }
+
+]

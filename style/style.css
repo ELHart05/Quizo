@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #5ADEFF;
+    flex-direction: column;
+}
+
+.container {
+    border: 4px solid black;
+    width: 85%;
+    max-width: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.quest {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.pre-quest {
+    line-height: 1;
+    font-size: 17px;
+    padding: 0 20px;
+}
+
+.answers {
+    width: 80%;
+    margin-top: 15px;
+}
+
+.demande-answer {
+    color: red;
+    font-weight: 800;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    align-self: flex-start;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.mini-container,
+.answers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mini-container {
+    background-color: white;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+
+fieldset {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+fieldset div {
+    display: flex;
+    margin: 5px 0;
+}
+
+legend {
+    padding: 0 5px;
+    font-size: 20px;
+}
+
+fieldset div label {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+}
+
+.submit {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 10px 5px;
+    color: white;
+    outline: none;
+    border: transparent;
+    font-size: 20px;
+    background-color: rgb(236, 70, 70);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: red;
+}
+
+.rights {
+    position: absolute;
+    bottom: 5px;
+}
